@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <form id="loginForm">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="foo" required />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          value="bar"
+          required
+        />
+      </div>
+      <button type="submit">Login</button>
+      <button type="button" id="signupButton">Sign Up</button>
+    </form>
+
+    <div id="movieManagement">
+      <h2>Movie Management</h2>
+      <button type="button" id="getMoviesButton">Get Movies</button>
+
+      <div>
+        <h3>Add New Movie</h3>
+        <div>
+          <label for="movieTitle">Movie Title:</label>
+          <input type="text" id="movieTitle" name="movieTitle" required />
+        </div>
+        <div>
+          <label for="movieYear">Release Year:</label>
+          <input type="number" id="movieYear" name="movieYear" required />
+        </div>
+        <button type="button" id="addMovieButton">Add Movie</button>
+      </div>
+    </div>
+
+    <p id="responseMessage" style="word-wrap: break-word; max-width: 500px"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
