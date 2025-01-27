@@ -1,5 +1,5 @@
 // API endpoints
-const API_BASE_URL = "http://localhost:8787";
+const API_BASE_URL = "https://my-app.preraku.workers.dev";
 const ENDPOINTS = {
   login: `${API_BASE_URL}/auth/login`,
   signup: `${API_BASE_URL}/auth/signup`,
